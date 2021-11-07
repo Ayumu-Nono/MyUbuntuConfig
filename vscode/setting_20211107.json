@@ -28,16 +28,12 @@
     "*.html": "jinja-html"
   },
   "keyboard.dispatch": "keyCode",
+  "extensions.autoUpdate": false,
   "files.autoSave": "afterDelay",
   "fortran.gfortranExecutable": "/usr/bin/gfortran",
   "workbench.iconTheme": "material-icon-theme",
   // latex
   "latex-workshop.latex.tools": [
-    {
-      "command": "pbibtex",
-      "args": ["%DOCFILE%", "-kanji=utf8"],
-      "name": "pbibtex"
-    },
     {
       "name": "ptex2pdf",
       "command": "ptex2pdf",
@@ -53,15 +49,10 @@
   "latex-workshop.view.pdf.viewer": "tab",
   "terminal.integrated.fontFamily": "monospace",
   "latex-workshop.message.update.show": false,
-  
   "latex-workshop.latex.recipes": [
     {
       "name": "ptex2pdf*2",
       "tools": [
-        // "ptex2pdf",
-        // "ptex2pdf",
-        "ptex2pdf",
-        "pbibtex",
         "ptex2pdf",
         "ptex2pdf"
       ]
@@ -108,6 +99,7 @@
     "default": "right",
     "jupyter-notebook": "left"
   },
+  "window.zoomLevel": 1,
   "githubIssues.queries": [
     {
       "label": "My Issues",
@@ -120,15 +112,5 @@
   ],
   "[python]": {
     "editor.wordBasedSuggestions": false
-  },
-  "git.suggestSmartCommit": false,
-  "[cpp]": {
-  
-    "editor.wordBasedSuggestions": false,
-    "editor.suggest.insertMode": "replace",
-    "editor.semanticHighlighting.enabled": true
-  },
-  "explorer.confirmDragAndDrop": false,
-  "window.zoomLevel": 1,
-  "jupyter.askForKernelRestart": false
+  }
 }
