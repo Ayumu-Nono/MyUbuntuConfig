@@ -20,8 +20,7 @@ libbz2-dev \
 libreadline-dev \
 libsqlite3-dev \
 libopencv-dev \
-tk-dev \
-git
+tk-dev
 ```
 
 ## pyenvをinstall
