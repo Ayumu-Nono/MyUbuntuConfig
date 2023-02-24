@@ -17,6 +17,20 @@
 plt.rcParams["font.family"] = "Arial"
 plt.rcParams["font.size"] = 15
 plt.rcParams["figure.dpi"] = 150
+
+plt.rcParams["xtick.direction"] = "in"               #x軸の目盛線を内向きへ
+plt.rcParams["ytick.direction"] = "in"               #y軸の目盛線を内向きへ
+plt.rcParams["xtick.minor.visible"] = True           #x軸補助目盛りの追加
+plt.rcParams["ytick.minor.visible"] = True           #y軸補助目盛りの追加
+plt.rcParams["xtick.major.width"] = 1.5              #x軸主目盛り線の線幅
+plt.rcParams["ytick.major.width"] = 1.5              #y軸主目盛り線の線幅
+plt.rcParams["xtick.minor.width"] = 1.0              #x軸補助目盛り線の線幅
+plt.rcParams["ytick.minor.width"] = 1.0              #y軸補助目盛り線の線幅
+plt.rcParams["xtick.major.size"] = 10                #x軸主目盛り線の長さ
+plt.rcParams["ytick.major.size"] = 10                #y軸主目盛り線の長さ
+plt.rcParams["xtick.minor.size"] = 5                 #x軸補助目盛り線の長さ
+plt.rcParams["ytick.minor.size"] = 5                 #y軸補助目盛り線の長さ
+plt.rcParams["axes.linewidth"] = 1.5                 #囲みの太さ
 ```
 
 ## カラーマップ
