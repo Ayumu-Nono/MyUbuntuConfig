@@ -1,0 +1,108 @@
+{
+  "glassit.alpha": 255,
+  "glassit.step": 220,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Monaco",
+  "editor.fontLigatures": true,
+  "window.newWindowDimensions": "fullscreen",
+  "window.openFilesInNewWindow": "default",
+  "window.restoreFullscreen": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "javascript.suggest.autoImports": false,
+  "typescript.suggest.autoImports": false,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "editor.formatOnSave": true,
+  "python.linting.mypyEnabled": true,
+  "[go]": {},
+  "python.formatting.provider": "black",
+  "go.formatTool": "goimports",
+  "python.linting.flake8Args": [
+    "--ignore=E203"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.html": "jinja-html"
+  },
+  "keyboard.dispatch": "keyCode",
+  "files.autoSave": "afterDelay",
+  "fortran.gfortranExecutable": "/usr/bin/gfortran",
+  "workbench.iconTheme": "material-icon-theme",
+  // latex
+  "latex-workshop.latex.tools": [
+    {
+      "name": "ptex2pdf",
+      "command": "ptex2pdf",
+      "args": [
+        "-interaction=nonstopmode",
+        "-l",
+        "-ot",
+        "-kanji=utf8 -synctex=1",
+        "%DOC%",
+      ]
+    },
+  ],
+  "latex-workshop.view.pdf.viewer": "tab",
+  "terminal.integrated.fontFamily": "monospace",
+  "latex-workshop.message.update.show": false,
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "ptex2pdf*2",
+      "tools": [
+        "ptex2pdf",
+        "ptex2pdf"
+      ]
+    },
+  ],
+  "latex-workshop.latex.autoBuild.run": "onFileChange",
+  "latex-workshop.latex.autoClean.run": "onFailed",
+  "latex-workshop.latex.build.clearLog.everyRecipeStep.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "fortran-ls.autocompletePrefix": true,
+  "fortran-ls.hoverSignature": true,
+  "fortran-ls.variableHover": true,
+  "python.languageServer": "Pylance",
+  "python.analysis.extraPaths": [
+    "DoNotTouchThisFolder"
+  ],
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.tabs.enabled": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.hlsearch": true,
+  "explorer.confirmDragAndDrop": false,
+  "jupyter.askForKernelRestart": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "terminal.integrated.fontSize": 14,
+  "notebook.diff.enablePreview": false,
+  "git.autofetch": true,
+  "git.suggestSmartCommit": false,
+  "git.confirmSync": false,
+  "git.ignoreLegacyWarning": true,
+  "window.zoomLevel": -1,
+  "[python]": {
+    "editor.formatOnType": true
+  }
+}
